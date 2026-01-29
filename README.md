@@ -76,7 +76,7 @@ from conversor import convert_base_frac, to_twos_complement
 # Converter um número da base 5 para a base 12
 resultado = convert_base_frac("44.2", 5, 12)
 print(f"O número '44.2' na base 5 é '{resultado}' na base 12.")
-# Saída: O número '44.2' na base 5 é '20.4972...' na base 12.
+# Saída: O número '44.2' na base 5 é '20.4972...' na base 12
 
 # Calcular o complemento de dois de -10 em 8 bits
 complemento = to_twos_complement(-10, 8)
@@ -92,3 +92,4 @@ print(f"O complemento de dois de -10 (8 bits) é: {complemento}")
   - `ipv4_to_bin(ip)`: Converte um endereço IPv4 para sua forma binária de 32 bits.
   - `bin_to_ipv4(bits)`: Converte uma string binária de 32 bits para o formato IPv4.
   - E outras funções auxiliares para conversões específicas (decimal-binário, octal-decimal, etc.).
+
